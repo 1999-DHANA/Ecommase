@@ -1,0 +1,469 @@
+*{
+    padding: 0px;
+    margin: 0px;
+     font-family:  "Inter", sans-serif; 
+    /* heading-font: "Inter", sans-serif; */
+
+
+}
+#demo1{
+    border: 1px solid rgb(190, 181, 181);
+    padding: 15px;
+    border-left: none;
+    border-right: none;
+}
+#demo1 ol{
+    list-style: none;
+    display: flex;
+}
+#demo2{
+    /* border: 2px solid red; */
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 930px;
+    list-style: none;
+    font-size: 20px;
+    color: #8d8d8d;
+}
+#demo3{
+     /* border: 2px solid red;  */
+    color: rgb(141, 152, 141);
+    display: flex;
+    list-style: none;
+    /* justify-content: space-between; */
+     transform: translateX(550%); 
+    /* place-items: space-between; */
+    position: relative;
+    /* left: 500px; */
+    justify-content: space-between ;
+    font-size: 20px;
+    /* width: 100px; */
+}
+#demo4{
+    /* border: 2px solid; */
+    height: 140px;
+}
+#demo4 img{
+    /* border: 2px solid red; */
+    position: relative;
+    top: 30px;
+    left: 50px;
+    /* font-size: 50px; */
+    width: 130px;
+}
+#demo5{
+    /* border: 2px solid red; */
+    height: 40px;
+    width: 55%;
+    /* align-items: end; */
+    /* justify-content: end; */
+    margin-left:670px ;
+    /* margin-bottom: -40px; */
+    padding: 10px;
+    /* align-items: center; */
+    /* text-align: center; */
+    /* justify-content: center; */
+    /* margin-bottom: 40px; */
+    position: relative;
+    bottom: 40px;
+}
+#demo5 ol{
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: space-between;
+    list-style: none;margin-top: 10px;
+    font-size: 20px;
+}
+#demo6{
+    /* border: 2px solid red; */
+    height: 650px;
+    background-image: url(./banner1.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+#demo6 h1{
+    /* border: 2px solid; */
+    font-size: 120px;
+    width: 50%;
+    margin-left: 60px;
+    /* margin-top: 200px; */
+    /* margin-bottom: 200px; */
+    position: relative;
+    top: 100px;
+    text-transform:capitalize;
+}
+#demo6 h4{
+    /* border: 2px solid; */
+    width: 40%;
+    margin-top: 100px;
+    margin-left: 70px;
+    height: 60px;
+    font-size: larger;
+    font-weight: 500;
+}
+#demo7{
+    /* border: 2px solid; */
+    height: 65px;
+    width: 250px;
+    text-transform: uppercase;
+    color: black;
+    background-color:rgb(253, 251, 250) ;
+    text-align: center;
+    /* justify-content: center; */
+    /* align-content: center; */
+    /* margin-bottom: 10px; */
+    margin: 40px;
+    list-style: none;  
+    margin-left: 80px;
+}
+#demo7 li{
+    /* border: 2px solid;  */
+    margin: 15px;
+    margin-top: 40px;
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+}
+#demo8{
+    /* border: 2px solid ; */
+    height: 1000px;
+}
+#demo8 h2{
+    /* border: 2px solid; */
+    height: 50px;
+    width: 500px;
+    padding: 30px;
+    font-size: 50px;
+    margin-left: 20px;
+    margin-top: 150px;
+}
+#demo8 li{
+    /* border: 2px solid; */
+    /* text-align: end; */
+    list-style: none;
+    position: relative;
+    left: 1300px;
+    bottom: 50px;
+    font-size: 20px;
+    width: 200px;
+    
+}
+#demo9 img {
+    border: 1px solid rgb(130, 130, 130);
+    /* padding: 5px;  */
+    padding: 8px;
+    /* font-size: 50px; */
+    height: 400px;
+    width: 300px;
+    /* margin-top: 20px; */
+    position:relative ;
+    top: -10px;
+    border-radius: 5px;
+}
+#demo9 img + img {
+    border: 1px solid;
+    position: relative;
+    left: 100px;
+    /* right: 40px; */
+    border:2px solid rgb(130, 125, 125);
+    /* right: -180px; */
+}
+#demo9 img + img + img {
+    border: 1px solid;
+    position: relative;
+    left: 100px;
+    /* right: 40px; */
+    margin-left: 35px;
+}
+#demo10 h3{
+   display: inline-block;
+   margin-left: 140px;
+   /* grid-template-columns: 1fr 1fr; */
+   font-size: 20px;
+   /* grid-template-rows: 1fr 1fr 1fr; */
+}
+#demo11 span{
+   /* border: 2px solid rgb(0, 64, 255); */
+   color: rgb(89, 186, 193);
+   margin-left: 170px;
+   padding: 20px;
+   font-size: 35px;
+}
+#demo12{
+    /* border: 2px solid red; */
+    width: 53%;
+    margin: 30px;
+    margin-top: 140px;
+    height: 650px;
+    border-radius: 12px;
+    background: url(https://themewagon.github.io/ultras/images/collection-item1.jpg);
+}
+#demo12 h3{
+    /* border: 2px solid red; */
+    /* margin: 380px; */
+    text-transform: uppercase;
+    text-align: end;
+    width: 300px;
+    /* margin-top: -50px; */
+    position: relative;
+    top: 200px;
+    left: 380px;
+    color: #8d8d8d;
+    font-weight: 300;
+}
+#demo12 h1{
+    /* border: 2px solid red; */
+    /* margin: 380px; */
+    text-transform: uppercase;
+    /* text-align: end; */
+    width: 200px;
+    height: 200px;
+    /* margin-top: -50px; */
+    position: relative;
+    top: 220px;
+    left: 480px;
+    font-size: 60px;
+    color: #100808;
+ font-family: "Inter", sans-serif;
+    /* font-weight: 300; */
+}
+#demo12 p{
+    /* border: 2px solid red; */
+    width: 250px;
+    position: relative;
+    left: 480px;
+    top: 170px;
+    color: #aa9494;
+}
+#demo13{
+    /* border: 2px solid red; */
+    height: 300px;
+    width: 600px;
+    position: relative;
+    left: 870px;
+    bottom: 680px;
+    border-radius: 12px;
+    background: url(https://themewagon.github.io/ultras/images/collection-item2.jpg);
+}
+#demo14{
+    /* border: 2px solid red; */
+    height: 300px;
+    width: 600px;
+    position: relative;
+    left: 870px;
+    bottom: 640px;
+    border-radius: 12px;
+    background: url(https://themewagon.github.io/ultras/images/collection-item3.jpg);
+}
+#demo13 h3{
+    /* border: 2px solid red; */
+    position: relative;
+    top: 100px;
+    left: 80px;
+    color: #8d8d8d;
+    font-weight: 300;
+
+}
+#demo13 h1{
+    text-transform: uppercase;
+    /* text-align: end; */
+    width: 100px;
+    height: 100px;
+    /* margin-top: -50px; */
+    position: relative;
+    top: 100px;
+    left: 80px;
+    font-size: 40px;
+    color: #100808;
+    font-family: "Inter", sans-serif;
+}
+#demo14 h3{
+    /* border: 2px solid red; */
+    position: relative;
+    top: 80px;
+    left: 80px;
+    color: #8d8d8d;
+    font-weight: 300;
+}
+#demo14 h1{
+    text-transform: uppercase;
+    /* text-align: end; */
+    width: 100px;
+    height: 100px;
+    /* margin-top: -50px; */
+    position: relative;
+    top: 80px;
+    left: 80px;
+    font-size: 40px;
+    color: #100808;
+    font-family: "Inter", sans-serif;
+}
+#demo15 h1{
+   position: relative;
+   /* border: 2px solid red; */
+   left: 30px;
+   bottom: 450px;
+   font-size: 40px;
+}
+#demo15 p{
+    position: relative;
+    /* border: 2px solid red; */
+    width: 80%;
+    left: 30px;
+    bottom: 400px;
+    font-size: 20px;
+ }
+ #demo15 div{
+    border: 2px solid rgb(91, 83, 83);
+    height: 60px;
+    position: relative;
+    /* border: 2px solid red; */
+    width: 50%;
+    left: 30px;
+    bottom: 350px;
+ }
+ #demo15 div{
+    border: 2px solid rgb(91, 83, 83);
+    height: 60px;
+    position: relative;
+    /* border: 2px solid red; */
+    width: 50%;
+    left: 30px;
+    bottom: 350px;
+ }
+ #demo15 div{
+    border: 2px solid rgb(91, 83, 83);
+    height: 60px;
+    position: relative;
+    /* border: 2px solid red; */
+    width: 50%;
+    left: 30px;
+    bottom: 350px;
+ }
+ #demo15 button{
+    /* border: 2px solid rgb(91, 83, 83); */
+    height: 63px;
+    position: relative;
+    /* border: 2px solid red; */
+    width: 15%;
+    left: 52%;
+    bottom: 413px;
+    color: aliceblue;
+    background-color: #100808;
+    cursor: pointer;
+ }
+ #demo15 button:hover{
+     background-color: #8d8d8d;
+     cursor: pointer;
+ }
+ #demo16 h1{
+    position: relative;
+    /* border: 2px solid red; */
+    left: 30px;
+    bottom: 200px;
+    font-size: 50px;
+}
+#demo17 ol{
+    /* border: 2px solid; */
+    display: flex;
+    position: relative;
+    right: 84%;
+     margin: 0px;
+    bottom: 100px; 
+    /* display: grid; */
+    /* grid-template-columns: 9fr; */
+}
+#demo18 img{
+    border: 2px solid rgb(207, 203, 203);
+    height: 400px;
+    width: 300px;
+    position: relative;
+    /* left: 40px; */
+    /* margin-left: 40px; */
+    border-radius: 8px;
+    bottom: 100px;
+    padding: 10px;
+    margin-top: -100px;
+}
+#demo18 img+img{
+    margin-left: 40px;
+}
+#demo18 span h1{
+    display: inline-flex;
+    margin-left: 80px;
+    position: relative;
+    left: 15px;
+    top: 50px;
+    /* text-align: start; */
+}
+#demo19 img{
+    border: 2px solid rgb(207, 203, 203);
+    height: 400px;
+    width: 300px;
+    position: relative;
+    /* left: 40px; */
+    /* margin-left: 40px; */
+    border-radius: 8px;
+    bottom: 100px;
+    padding: 10px;
+    margin-top: 150px;
+}
+#demo19 img+img{
+    margin-left: 40px;
+}
+#demo19 span h1{
+    display: inline-flex;
+    margin-left: 50px;
+    position: relative;
+    left: 15px;
+    top: 50px;
+    /* text-align: start; */
+}
+#demo20 img{
+    border: 2px solid rgb(207, 203, 203);
+    height: 400px;
+    width: 300px;
+    position: relative;
+    /* left: 40px; */
+    /* margin-left: 40px; */
+    border-radius: 8px;
+    bottom: 100px;
+    padding: 10px;
+    margin-top: 150px;
+}
+#demo20 img+img{
+    margin-left: 40px;
+}
+#demo20 span h1{
+    display: inline-flex;
+    margin-left: 115px;
+    position: relative;
+    left: 15px;
+    top: 50px;
+    /* text-align: start; */
+}
+#demo21 img{
+    border: 2px solid rgb(207, 203, 203);
+    height: 400px;
+    width: 300px;
+    position: relative;
+    /* left: 40px; */
+    /* margin-left: 40px; */
+    border-radius: 8px;
+    bottom: 100px;
+    padding: 10px;
+    margin-top: 150px;
+}
+#demo21 img+img{
+    margin-left: 40px;
+}
+#demo21 span h1{
+    display: inline-flex;
+    margin-left: 60px;
+    position: relative;
+    left: 15px;
+    top: 50px;
+    /* text-align: start; */
+}
